@@ -20,4 +20,4 @@ The MCMC algorithm can be used to find the statistics of a quantum particle with
 
 ## What This Repository Contains
 
-The main code file, Quantum Monte Carlo Project [Final Code].py is all that is required to run the code. The results folder includes a variety of plots showcasing the different values of $L$. 
+The main code file, Quantum Monte Carlo Project [Final Code].py is all that is required to run the code. The results folder will eventually include a variety of plots showcasing the different values of $L$. 
