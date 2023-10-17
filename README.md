@@ -6,7 +6,7 @@ Quantum Monte Carlo (QMC) uses the Markov Chain Monte Carlo (MCMC) algorithm, in
 
 The basis of the project used the following equation: 
 
-$$S(x) = \epsilon \sum_{j=0}^{L-1} \left \frac{m}{2} \left\frac{x_{j+1}-x_{j}}{\epsilon}\right^{2} + \frac{1}{2}kx_{j}^{2} \right$$
+$$S(x) = \epsilon \sum_{j=0}^{L-1} \left( \frac{m}{2} \left(\frac{x_{j+1}-x_{j}}{\epsilon}\right)^{2} + \frac{1}{2}kx_{j}^{2} \right)$$
 
 where $\epsilon = \frac{1}{LT}$, $m$ is the mass, $x_{j}$ is the initial position of the particle and $k$ is the spring constant. $S(x)$ is known as the action, defining the chain of coupled particles. THe first term is derived from the kinetic part of the Hamiltonian and the second term denotes the harmonic 'spring' coupling between the particles. $L$ refers to how many particles are in the chain. 
 
