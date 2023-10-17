@@ -1,2 +1,1 @@
-# QMC
-Quantum Monte Carlo
+# Quantum Monte Carlo
